@@ -1,8 +1,10 @@
 var should = require('should'),
-    packagejson = require('../package.json'),
-    util = require('util');
+    util = require('util'),
+    fs = require('fs');
 
 describe("updating the package.json with sha and last commit date", function(){
+
+    var packagejson = JSON.parse(fs.readFileSync('package.json'));
 
     it ("should populate lastCommitTimestamp with a valid date", function(){
         packagejson.should.have.property("lastCommitTimestamp");

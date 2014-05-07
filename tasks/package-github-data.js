@@ -10,8 +10,7 @@ module.exports = function(grunt){
     grunt.registerMultiTask('package-github-data', 'Adds information from Github about this project to package.json', function(){
 
         var done = this.async(),
-            options = this.options({}),
-            packagejson = require('../package.json');
+            options = this.options({});
 
         grunt.verbose.writeflags(options);
 
@@ -37,8 +36,7 @@ module.exports = function(grunt){
             else{
                 var lastCommit = res[0];
 
-                grunt.verbose.writeln("Last commit: " + JSON.stringify(lastCommit));
-
+                var packagejson = JSON.parse(grunt.file.read('package.json'));
                 packagejson.lastCommitSha = lastCommit.sha;
                 packagejson.lastCommitTimestamp = lastCommit.commit.committer.date;
 
