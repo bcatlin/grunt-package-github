@@ -1,6 +1,6 @@
 {
   "name": "grunt-package-github",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Adds information from Github about this project to package.json",
   "main": "Gruntfile.js",
   "scripts": {
@@ -30,7 +30,8 @@
     "grunt-cli": "~0.1.13",
     "grunt-mocha-test": "~0.9.0",
     "grunt-contrib-jshint": "~0.8.0",
-    "should": "~3.1.2"
+    "should": "~3.1.2",
+    "grunt-bump": "0.0.13"
   },
   "lastCommitSha": "8691d01b98db40e340d5422d0908d3977b25691f",
   "lastCommitTimestamp": "2014-05-07T14:23:32Z"
