@@ -1,6 +1,6 @@
 {
   "name": "grunt-package-github",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Adds information from Github about this project to package.json",
   "main": "Gruntfile.js",
   "scripts": {
