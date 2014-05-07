@@ -2,6 +2,8 @@
 
 > Adds information from Github about this project to package.json
 
+[![Build Status](https://travis-ci.org/christriddle/grunt-package-github.svg?branch=master)](https://travis-ci.org/christriddle/grunt-package-github)
+
 [![NPM](https://nodei.co/npm/grunt-package-github.png)](https://nodei.co/npm/grunt-package-github)
 
 ## Getting Started
