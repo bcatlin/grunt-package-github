@@ -31,7 +31,7 @@ module.exports = function(grunt){
             repo: options.github.repo
         }, function(err, res) {
             if (err){
-                grunt.fatal.fail("Error when requesting commits from Github: " + err);
+                grunt.fatal("Error when requesting commits from Github: " + err);
             }
             else{
                 var lastCommit = res[0];
