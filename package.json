@@ -8,17 +8,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/christriddle/grunt-package-github.git"
+    "url": "git://github.com/opentable/grunt-package-github.git"
   },
   "keywords": [
     "grunt"
   ],
-  "author": "christriddle",
+  "author": "opentable",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/christriddle/grunt-package-github/issues"
+    "url": "https://github.com/opentable/grunt-package-github/issues"
   },
-  "homepage": "https://github.com/christriddle/grunt-package-github",
+  "homepage": "https://github.com/opentable/grunt-package-github",
   "peerDependencies": {
     "grunt": "~0.4.2"
   },
@@ -33,6 +33,6 @@
     "should": "~3.1.2",
     "grunt-bump": "0.0.13"
   },
-  "lastCommitSha": "24d81d55b58cbdd6b9227bea0c3b1851da0b2029",
-  "lastCommitTimestamp": "2014-05-07T15:43:40Z"
+  "lastCommitSha": "e450b5e214c6123cd0668ca50f3028be3b1bd949",
+  "lastCommitTimestamp": "2014-05-12T10:42:00Z"
 }

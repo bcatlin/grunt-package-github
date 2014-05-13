@@ -24,7 +24,7 @@ module.exports = function(grunt) {
             test: {
                 options: {
                     github: {
-                        user: "christriddle",
+                        user: "opentable",
                         repo: "grunt-package-github"
                     }
                 }
